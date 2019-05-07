@@ -1,4 +1,18 @@
 body {
-	background-color: rgba(49, 255, 200, 50);
-	/*background-image: linear-gradient(to top right, 96ffd5, 6dffc4)*/
+	background-color: #fafaf8;
+}
+
+a {
+	font-family: DejaVu Sans Mono, monospace;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+a:hover {
+	color: #84739c;
+}
+
+a:active {
+	color: #000000;
 }
