@@ -2,13 +2,19 @@ body {
 	background-color: #fafaf8;
 }
 
+p {
+	font-family: DejaVu Sans Mono, monospace;
+	color: #000000;
+	font-size: 25px;
+}
+
 a {
 	font-family: DejaVu Sans Mono, monospace;
 	color: #000000;
-	text-decoration: none;
+/*	text-decoration: none;
 	display: block;
     float: left;
-    clear: both;
+    clear: both;*/
 }
 
 a:hover {
@@ -22,4 +28,9 @@ a:active {
 #id {
 	float: right;
 	clear: right;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
 }
