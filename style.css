@@ -8,6 +8,15 @@ p {
 	font-size: 25px;
 }
 
+.idpic {
+	float:right;
+	margin-left;
+}
+
+.projects {
+	margin-top: 400px;
+}
+
 a {
 	font-family: DejaVu Sans Mono, monospace;
 	color: #000000;
@@ -31,6 +40,5 @@ a:active {
 }
 
 footer {
-	position: absolute;
 	bottom: 0;
 }
