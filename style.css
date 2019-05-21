@@ -2,15 +2,10 @@ body {
 	background-color: #fafaf8;
 }
 
-p {
+center, p {
 	font-family: DejaVu Sans Mono, monospace;
 	color: #000000;
 	font-size: 25px;
-}
-
-.idpic {
-	float:right;
-	margin-left;
 }
 
 .projects {
@@ -20,10 +15,7 @@ p {
 a {
 	font-family: DejaVu Sans Mono, monospace;
 	color: #000000;
-/*	text-decoration: none;
-	display: block;
-    float: left;
-    clear: both;*/
+	text-decoration: underline;
 }
 
 a:hover {
