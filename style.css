@@ -2,14 +2,20 @@ body {
 	background-color: #fafaf8;
 }
 
-center, p {
+p {
 	font-family: DejaVu Sans Mono, monospace;
 	color: #000000;
 	font-size: 25px;
 }
 
+center {
+	font-family: DejaVu Sans Mono, monospace;
+	color: #000000;
+	font-size: 30px;
+}
+
 .projects {
-	margin-top: 400px;
+	margin-top: 300px;
 }
 
 a {
