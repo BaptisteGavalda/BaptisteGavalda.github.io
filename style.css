@@ -20,8 +20,10 @@ center {
 
 a {
 	font-family: DejaVu Sans Mono, monospace;
+	font-size: 30px;
 	color: #000000;
 	text-decoration: underline;
+	display:inline-block;
 }
 
 a:hover {
@@ -39,4 +41,8 @@ a:active {
 
 footer {
 	bottom: 0;
+}
+
+footer p {
+	display:inline-block;
 }
