@@ -14,8 +14,16 @@ center {
 	font-size: 30px;
 }
 
-.projects {
+.langs img {
+	margin-left: 5px;
+}
+
+.skills {
 	margin-top: 300px;
+}
+
+.title {
+	margin-top: 100px;
 }
 
 a {
