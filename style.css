@@ -1,5 +1,7 @@
 body {
 	background-color: #fafaf8;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 p {
@@ -55,6 +57,10 @@ footer p {
 	display:inline-block;
 }
 
+.projects {
+	text-align: center;
+}
+
 .project {
 	width:500px;
 
@@ -68,6 +74,8 @@ footer p {
 	margin-top: 5px;
 	margin-right: 5px;
 	display: inline-block;
+	
+	text-align: left;
 	
 	transition: tansform .2s;
 }
