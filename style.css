@@ -1,7 +1,7 @@
 body {
 	background-color: #fafaf8;
 	margin-left: 30px;
-	margin-right: 30px;
+	margin-right: 30px;	
 }
 
 p {
@@ -25,7 +25,7 @@ center {
 }
 
 .title {
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 }
 
 a {
@@ -34,6 +34,7 @@ a {
 	color: #000000;
 	text-decoration: underline;
 	display:inline-block;
+	margin: 0;
 }
 
 a:hover {
@@ -51,14 +52,16 @@ a:active {
 
 footer {
 	bottom: 0;
+	margin-top: 50px;
 }
 
 footer p {
 	display:inline-block;
 }
 
-.projects {
+.deck {
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 .card {
@@ -85,9 +88,11 @@ footer p {
 }
 
 .card-name {
-	font-size: 20px;
-	font-weight: bold;
-	padding:0px;
+	font-family: DejaVu Sans Mono, monospace;
+	font-size: 30px;
+	display:inline-block;
+	margin: 0;
+	/*padding:0px;*/
 }
 
 .lang {
