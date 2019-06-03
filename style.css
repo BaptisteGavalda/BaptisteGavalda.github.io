@@ -61,7 +61,7 @@ footer p {
 	text-align: center;
 }
 
-.project {
+.card {
 	width:500px;
 
 	border-style: solid;
@@ -80,8 +80,14 @@ footer p {
 	transition: tansform .2s;
 }
 
-.project:hover {
+.card:hover {
 	transform: scale(1.01);
+}
+
+.card-name {
+	font-size: 20px;
+	font-weight: bold;
+	padding:0px;
 }
 
 .lang {
@@ -96,13 +102,7 @@ footer p {
 	display: inline-block;
 }
 
-
-.project-name {
-	font-size: 20px;
-	font-weight: bold;
-	padding:0px;
-}
-
 .lang-name {
 	margin: 2px;
 }
+
