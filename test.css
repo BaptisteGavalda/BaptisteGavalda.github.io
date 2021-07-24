@@ -3,7 +3,8 @@
     position: relative;
     margin: 0 auto;
  } 
- img { 
+ img {
+    height: 100%;
     position: absolute;
     border: solid;
     border-color: black;
