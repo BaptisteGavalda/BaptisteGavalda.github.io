@@ -1,19 +1,19 @@
+body {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
 
-.container {
-    position: relative;
-    margin: 0 auto;
- } 
- img {
-    height: 100%;
-    position: absolute;
-    border: solid;
-    border-color: black;
-    left: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
- } 
- img#visible:hover { 
-     opacity: 0; 
+div#container {
+   justify-self: center; 
+   align-self: center;
+   margin-left: -250px;
+} 
+img {
+   height: 100%;
+   position: absolute;
+   transition: opacity 1s ease-in-out;
+} 
+img#visible:hover {
+    opacity: 0; 
 }
